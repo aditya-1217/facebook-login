@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #36d1dc, #5b86e5);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 900px;
+    height: 500px;
+    display: flex;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+}
+
+/* Left Section */
+.left {
+    width: 50%;
+    background: linear-gradient(135deg, #ff9966, #ff5e62);
+    color: white;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.left p {
+    font-size: 18px;
+}
+
+/* Right Section */
+.right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    width: 320px;
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.login-box input:focus {
+    outline: none;
+    border-color: #5b86e5;
+    box-shadow: 0 0 10px rgba(91,134,229,0.6);
+}
+
+.login-btn {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #36d1dc, #5b86e5);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 12px;
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+    transform: scale(1.05);
+}
+
+.create-btn {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #ff9966, #ff5e62);
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.create-btn:hover {
+    transform: scale(1.05);
+}
+
+.forgot {
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #5b86e5;
+}
